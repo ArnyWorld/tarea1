@@ -1,0 +1,88 @@
+:root{
+    --colorPrimario:#42536B;
+    --colorSecundario: #0096fa;
+    --fuentePrimaria:'Roboto', Arial;
+    --fuenteSecundaria:'Open Sans';
+    --fondoOscuro:#000;
+    --fondoBlanco:#fff;
+    --colorPost:#6D92C7;
+    --colorPopular:#3768D4;
+    --colorNumero:#363B44;
+    
+    
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+
+
+.banner{
+    width: 100%;
+    height: 85vh;
+    background-color: var(--colorPrimario) ;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.barraNaevgacion{
+    width: 100%;
+    background-color: var(--colorPrimario);
+    padding: 15px 75px;
+    margin-bottom: 35px;
+}
+
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.enlaceLogo{
+    text-decoration: none;
+}
+
+.imagenLogo{
+    width: 300px;
+    
+}
+
+.cabecera{
+    color:var(--colorSecundario);
+    font-family: var(--fuentePrimaria);
+}
+
+.listaNavegacion{
+
+    width: 100%;
+    margin-top: 2px;
+}
+
+
+.listaEnlace{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.enlace{
+    color: var(--colorNumero);
+    text-decoration: none;
+    font-size:20px;
+    font-family: var(--fuenteSecundaria);
+
+}
+
+.imagenArticulo{
+    width: 100%;
+}
+
+.botonArticulo{
+    width: 100%;
+    background-color: var(--colorPrimario);
+    display: inline-block;
+}
